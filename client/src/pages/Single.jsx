@@ -47,7 +47,10 @@ const Single = () => {
     <div className="single">
       {showWarning && (
         <div className="not-logged-in-warning">
-          <p>Anda belum mempunyai akun. Silakan login atau daftar untuk melihat posting ini.</p>
+          <h5>Anda belum mempunyai akun. 
+          <br/>Silakan login atau daftar
+          <br/>untuk bisa update postingan ini
+          </h5>
         </div>
       )}
       {currentUser ? (
@@ -80,8 +83,7 @@ const Single = () => {
       ) : (
         // Jika pengguna belum masuk atau mendaftar, tampilkan pesan peringatan
         <button onClick={() => setShowWarning(true)}>
-          Anda tidak memiliki akses untuk
-          <br/>update dan hapus data
+          Anda tidak memiliki akses
         </button>
       )}
       <Menu cat={post.cat} />
