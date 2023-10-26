@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/">
-          <img src={Logo} alt="" />
+            <img src={Logo} alt="" />
           </Link>
         </div>
         <div className="links">
@@ -41,11 +41,13 @@ const Navbar = () => {
               Login
             </Link>
           )}
-          <span className="write">
-            <Link className="link" to="/write">
-              Write
-            </Link>
-          </span>
+          {currentUser && ( // Hanya tampilkan tombol "Write" jika pengguna sudah login
+            <span className="write">
+              <Link className="link" to="/write">
+                Write
+              </Link>
+            </span>
+          )}
         </div>
       </div>
     </div>
