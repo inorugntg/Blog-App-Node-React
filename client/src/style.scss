@@ -18,11 +18,11 @@ $lightGreen: #b9e7e7;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      background-color: $lightGreen;
+      background-color: blanchedalmond;
 
       h1 {
         font-size: 20px;
-        color: teal;
+        color: blueviolet;
         margin-bottom: 20px;
       }
 
@@ -43,7 +43,7 @@ $lightGreen: #b9e7e7;
         button {
           padding: 10px;
           border: none;
-          background-color: teal;
+          background-color: blueviolet;
           cursor: pointer;
           color: white;
         }
@@ -89,7 +89,7 @@ $lightGreen: #b9e7e7;
           }
 
           .write {
-            background-color: $lightGreen;
+            background-color: burlywood;
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -100,9 +100,9 @@ $lightGreen: #b9e7e7;
             border: 1px solid white;
 
             &:hover {
-              color: teal;
+              color: blueviolet;
               background-color: white;
-              border: 1px solid teal;
+              border: 1px solid blueviolet;
             }
           }
         }
@@ -110,11 +110,10 @@ $lightGreen: #b9e7e7;
     }
 
     //FOOTER
-
     footer {
       margin-top: 100px;
       padding: 20px;
-      background-color: $lightGreen;
+      background-color: blanchedalmond;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -125,7 +124,6 @@ $lightGreen: #b9e7e7;
     }
 
     //HOME
-
     .home {
       .posts {
         margin-top: 50px;
@@ -149,7 +147,7 @@ $lightGreen: #b9e7e7;
               content: "";
               width: 100%;
               height: 100%;
-              background-color: $lightGreen;
+              background-color: blanchedalmond;
               position: absolute;
               top: 20px;
               left: -20px;
@@ -183,12 +181,12 @@ $lightGreen: #b9e7e7;
               border: none;
               cursor: pointer;
               background-color: white;
-              border: 1px solid teal;
-              color: teal;
+              border: 1px solid blanchedalmond;
+              color: blueviolet;
 
               &:hover {
                 border: 1px solid white;
-                background-color: $lightGreen;
+                background-color: burlywood;
                 color: black;
               }
             }
@@ -284,13 +282,13 @@ $lightGreen: #b9e7e7;
             padding: 7.5px 15px;
             border: none;
             cursor: pointer;
-            color: teal;
+            color: burlywood;
             background-color: white;
-            border: 1px solid teal;
+            border: 1px solid blanchedalmond;
 
             &:hover {
               border: 1px solid white;
-              background-color: $lightGreen;
+              background-color: blueviolet;
               color: black;
             }
           }
@@ -359,16 +357,16 @@ $lightGreen: #b9e7e7;
 
             :first-child{
               cursor: pointer;
-              color: teal;
+              color: burlywood;
               background-color: white;
-              border: 1px solid teal;
+              border: 1px solid burlywood;
               padding: 3px 5px;
             }
             :last-child{
               cursor: pointer;
               color: white;
-              background-color: teal;
-              border: 1px solid teal;
+              background-color: burlywood;
+              border: 1px solid burlywood;
               padding: 3px 5px;
             }
           }
@@ -377,7 +375,7 @@ $lightGreen: #b9e7e7;
             display: flex;
             align-items: center;
             gap: 2px;
-            color: teal;
+            color: burlywood;
           }
         }
       }
